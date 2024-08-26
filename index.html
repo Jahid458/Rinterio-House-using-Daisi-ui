@@ -20,6 +20,15 @@
     body{
       font-family: "Manrope", sans-serif;
     }
+
+    .discussBg{
+      background-image: url(./images/bg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+
   </style>
 
   <script>
@@ -33,6 +42,7 @@
             'btnColor': '#ABEF5F',
             'bgColor' : '#F4F4F4',
             'green':'rgba(30,30,30,0.02)',
+            'btnColor1': 'rgb(171, 239, 95)',
             'btnColor2': 'rgba(171, 239, 95, 0.2)'
           }
         }
@@ -431,6 +441,46 @@
          </div>
       </div>
      </section>
+
+
+     <!-- Contact Form -->
+      <section class="discussBg">
+        <div class="container mx-auto py-20 px-5 md:px-10 text-center">
+          <!-- Contact Header -->
+        <div class="md:w-1/2 mx-auto text-center ">
+          <a href="#" class="px-7 py-3 rounded-3xl bg-btnColor2 text-black font-bold hover:bg-btnColor">
+            <i class="fa-solid fa-arrow-right  text-black leading-6 font-extrabold text-sm text-center mt-20 mb-5"></i>Let’s Connect</a>
+            <h2 class="text-black text-2xl md:text-3xl lg:text-5xl font-extrabold mb-7">Let’s Discuss Next Project</h2> 
+            <p class="text-md md:text-md mb-5 font-semibold">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p> 
+        </div>
+
+        <!-- Contact Forms -->
+       <div class="lg:w-2/3 mx-auto">
+          <form action="#">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                   <input type="text" placeholder="First Name" class="input input-bordered w-full mb-5 rounded-3xl focus:outline-none bg-primaryColor text-black">
+
+                   <input type="text" placeholder="Last Name" class="input input-bordered w-full  mb-5 rounded-3xl focus:outline-none bg-primaryColor text-black">
+
+                   <input type="number" placeholder="Phone Number" class="input input-bordered w-full mb-5 rounded-3xl focus:outline-none bg-primaryColor text-black">
+
+                   <input type="email" placeholder="Email" class="input input-bordered w-full mb-5 rounded-3xl focus:outline-none bg-primaryColor text-black">
+                </div>
+
+                <textarea class="textarea mt-6 h-40 w-full focus:outline-none rounded-3xl bg-primaryColor text-black" placeholder="Write Your Message Here"></textarea>
+
+                <a href="#" class="py-4 px-6 text-center block bg-btnColor1 text-black font-extrabold mt-9 rounded-3xl hover:bg-opacity-85 ">View Details<i class="fa-solid fa-arrow-right bg-black text-white
+                  rounded-full w-6 h-6 text-center leading-6 -rotate-45" ></i></a>
+               
+          </form>
+       </div>
+
+        </div>
+
+      </section>
      
 
 
