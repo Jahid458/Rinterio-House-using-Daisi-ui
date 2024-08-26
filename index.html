@@ -32,7 +32,8 @@
             'textsecondaryColor': '#737373',
             'btnColor': '#ABEF5F',
             'bgColor' : '#F4F4F4',
-            'green':'rgba(30,30,30,0.02)'
+            'green':'rgba(30,30,30,0.02)',
+            'btnColor2': 'rgba(171, 239, 95, 0.2)'
           }
         }
       }
@@ -266,8 +267,50 @@
         </section>
 
         <!-- Latest Portfolio section -->
-     <section>
+     <section class="container mx-auto">
+           <div class="py-20 px-5">
+              <!-- portfolio Heading content -->
+              <div class="md:w-2/5 mx-auto text-center ">
+                <a href="#" class="px-7 py-3 rounded-3xl bg-btnColor2 text-black font-bold hover:bg-btnColor">
+                  <i class="fa-solid fa-arrow-right  text-black leading-6 font-extrabold text-sm text-center mt-20 mb-5"></i>Explore Our Latest Work </a>
+                  <h2 class="text-black text-2xl md:text-3xl lg:text-5xl font-extrabold mb-7">Our Works Process</h2> 
+                  <p class="text-sm md:text-md mb-5 font-semibold">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                  </p> 
+               </div>
 
+               <!-- Portfolio Item Lists -->
+                <div class="mt-10 space-y-5">
+                  <!-- portfolio top sections -->
+                   <div class="grid md:grid-cols-3 gap-5">
+                     <!-- Item 1 -->
+                      <div class="flex flex-col md:flex-row items-center gap-5 p-5 rounded-2xl bg-white md:col-span-2">
+                          <div class="w-full">
+                             <img src="./images/img1.png" alt="" class="w-full">
+                          </div>
+
+                          <div class="space-y-3">
+                              <h3 class="text-2xl font-bold ">Commercial</h3>
+                              <p class="text-secondaryColor">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+
+                              <div class="">
+                                <a href="#" class="py-3 px-3 bg-btnColor font-bold rounded-3xl hover:bg-opacity-80">View Details <i class="fa-solid fa-arrow-right bg-[#74a33e] text-black rounded-full w-6 h-6 text-center leading-6 -rotate-45" ></i>
+                                </a>
+                              </div>
+                          </div>
+                          
+                      </div>
+                      <!-- Item 2 Images -->
+                       <div class="bg-white flex flex-col md:flex-row items-center gap-5 p-5 
+                             rounded-2xl md:col-span-1">
+                         <div class="w-full md:h-full">
+                            <img src="./images/img2.png" alt="" class="w-full md:h-full">
+                         </div>
+                       </div>
+                   </div>
+                </div>
+
+           </div>  
      </section>
   
 </body>
